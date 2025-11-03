@@ -3,7 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const productGrid = document.getElementById("product-grid");
   const filterButtons = document.querySelectorAll(".filter-btn");
 
-  // ✅ Load products from DummyJSON (limit 194)
+  // ✅ Fixed Indian Prices Only
+  const allowedPrices = [99, 199, 499, 999, 1999, 4999, 9999];
+
+  // ✅ Load products from DummyJSON
   async function loadProducts() {
     try {
       const res = await fetch("https://dummyjson.com/products?limit=194&skip=0");
@@ -28,9 +31,15 @@ document.addEventListener("DOMContentLoaded", () => {
         fashionCategories.includes(p.category)
       );
 
-      renderProducts(fashionProducts);
-      setupFilters(fashionProducts);
-      setupSearch(fashionProducts);
+      // ✅ Replace prices with allowed values randomly
+      const mappedProducts = fashionProducts.map((p) => ({
+        ...p,
+        price: allowedPrices[Math.floor(Math.random() * allowedPrices.length)],
+      }));
+
+      renderProducts(mappedProducts);
+      setupFilters(mappedProducts);
+      setupSearch(mappedProducts);
     } catch (error) {
       console.error("Error loading products:", error);
       productGrid.innerHTML = `<p class="text-danger text-center">⚠️ Unable to load fashion products. Please refresh.</p>`;
@@ -53,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="card-body text-center">
               <h6 class="fw-bold text-truncate">${p.title}</h6>
               <p class="small text-muted text-capitalize">${p.category.replace("-", " ")}</p>
-              <div class="price mb-2 fw-semibold text-orange">₹${(p.price * 83).toFixed(0)}</div>
+              <div class="price mb-2 fw-semibold text-orange">₹${p.price}</div>
               <button class="btn btn-outline-orange btn-sm w-100">Add to Cart</button>
             </div>
           </div>
