@@ -1,45 +1,115 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #fff;
-  color: #222;
+  background-color: #fafafa;
+}
+
+/* Header */
+.main-header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1000;
 }
 
 .text-orange {
   color: #ff6600;
 }
 
-.card {
-  border-radius: 15px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.card img {
-  height: 280px;
-  object-fit: cover;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.btn-outline-orange {
-  border: 1.5px solid #ff6600;
-  color: #ff6600;
-  border-radius: 25px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.btn-outline-orange:hover {
-  background-color: #ff6600;
+.btn-orange {
+  background: #ff6600;
   color: #fff;
 }
 
+.btn-outline-orange {
+  border: 1px solid #ff6600;
+  color: #ff6600;
+}
+
+.btn-outline-orange.active,
+.btn-outline-orange:hover {
+  background: #ff6600;
+  color: #fff;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f2f2f2;
+  max-width: 400px;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.hero-section {
+  position: relative;
+  background: url('assets/images/hero-shop.jpg') center/cover no-repeat;
+  padding: 120px 0;
+  color: white;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Product Card */
+.product-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.price {
+  color: #ff6600;
+  font-weight: 600;
+}
+
+footer {
+  font-size: 14px;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-  .card img {
+  .hero-section {
+    padding: 80px 0;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .product-card img {
     height: 200px;
   }
 }
