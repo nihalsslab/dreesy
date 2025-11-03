@@ -1,0 +1,45 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+.text-orange {
+  color: #ff6600;
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  height: 280px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btn-outline-orange {
+  border: 1.5px solid #ff6600;
+  color: #ff6600;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-orange:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .card img {
+    height: 200px;
+  }
+}
