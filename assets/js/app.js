@@ -1,55 +1,69 @@
-// CostumeVerse Shop Page – Indian Fashion Version (Local JSON)
-document.addEventListener("DOMContentLoaded", async () => {
+// CostumeVerse / Indian Fashion Shop – Only Fashion Products (From DummyJSON)
+document.addEventListener("DOMContentLoaded", () => {
   const productGrid = document.getElementById("product-grid");
   const filterButtons = document.querySelectorAll(".filter-btn");
 
+  // ✅ Load products from DummyJSON (limit 194)
   async function loadProducts() {
     try {
-      // Load from your local file
-      const res = await fetch("assets/data/products.json");
-      const products = await res.json();
+      const res = await fetch("https://dummyjson.com/products?limit=194&skip=0");
+      const data = await res.json();
+      const allProducts = data.products;
 
-      renderProducts(products);
-      setupFilters(products);
-      setupSearch(products);
+      // ✅ Show only clothing, shoes, accessories — fashion-related items
+      const fashionCategories = [
+        "mens-shirts",
+        "mens-shoes",
+        "mens-watches",
+        "mens-fashion",
+        "womens-dresses",
+        "womens-shoes",
+        "womens-watches",
+        "womens-bags",
+        "womens-jewellery",
+        "tops"
+      ];
+
+      const fashionProducts = allProducts.filter((p) =>
+        fashionCategories.includes(p.category)
+      );
+
+      renderProducts(fashionProducts);
+      setupFilters(fashionProducts);
+      setupSearch(fashionProducts);
     } catch (error) {
       console.error("Error loading products:", error);
-      productGrid.innerHTML = `
-        <p class="text-danger text-center">⚠️ Unable to load products. Please refresh.</p>
-      `;
+      productGrid.innerHTML = `<p class="text-danger text-center">⚠️ Unable to load fashion products. Please refresh.</p>`;
     }
   }
 
-  // Render products in grid
+  // ✅ Render Product Cards
   function renderProducts(products) {
     if (!products.length) {
-      productGrid.innerHTML = `<p class="text-center text-muted">No products found.</p>`;
+      productGrid.innerHTML = `<p class="text-center text-muted">No fashion products found.</p>`;
       return;
     }
 
-    productGrid.innerHTML = `
-      ${products
-        .map(
-          (p) => `
+    productGrid.innerHTML = products
+      .map(
+        (p) => `
         <div class="col-sm-6 col-md-4 col-lg-3 product-card" data-category="${p.category}">
-          <div class="card shadow-sm h-100 border-0">
+          <div class="card shadow-sm h-100 border-0 anim-fade-up">
             <img src="${p.thumbnail}" class="card-img-top" alt="${p.title}">
             <div class="card-body text-center">
-              <h6 class="fw-bold">${p.title}</h6>
-              <p class="small text-muted text-capitalize">${p.category}</p>
-              <div class="price mb-2 fw-semibold text-orange">₹${p.price}</div>
-              <div class="rating text-warning mb-2">⭐ ${p.rating || 4.2}</div>
+              <h6 class="fw-bold text-truncate">${p.title}</h6>
+              <p class="small text-muted text-capitalize">${p.category.replace("-", " ")}</p>
+              <div class="price mb-2 fw-semibold text-orange">₹${(p.price * 83).toFixed(0)}</div>
               <button class="btn btn-outline-orange btn-sm w-100">Add to Cart</button>
             </div>
           </div>
         </div>
       `
-        )
-        .join("")}
-    `;
+      )
+      .join("");
   }
 
-  // Filter buttons
+  // ✅ Category Filter Buttons
   function setupFilters(allProducts) {
     filterButtons.forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -60,13 +74,23 @@ document.addEventListener("DOMContentLoaded", async () => {
         let filtered = allProducts;
 
         if (filter === "Men") {
-          filtered = allProducts.filter((p) => p.category.includes("Men"));
+          filtered = allProducts.filter((p) => p.category.includes("mens"));
         } else if (filter === "Women") {
-          filtered = allProducts.filter((p) => p.category.includes("Women"));
+          filtered = allProducts.filter((p) => p.category.includes("womens"));
         } else if (filter === "Kids") {
-          filtered = allProducts.filter((p) => p.category.includes("Kids"));
+          filtered = allProducts.filter(
+            (p) =>
+              p.title.toLowerCase().includes("kids") ||
+              p.category.toLowerCase().includes("kids")
+          );
         } else if (filter === "Cultural") {
-          filtered = allProducts.filter((p) => p.category.includes("Cultural"));
+          filtered = allProducts.filter(
+            (p) =>
+              p.title.toLowerCase().includes("kurta") ||
+              p.title.toLowerCase().includes("blouse") ||
+              p.title.toLowerCase().includes("saree") ||
+              p.title.toLowerCase().includes("ethnic")
+          );
         }
 
         renderProducts(filtered);
@@ -74,12 +98,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  // Search bar
+  // ✅ Search Box Setup
   function setupSearch(allProducts) {
     const searchContainer = document.createElement("div");
     searchContainer.className = "text-center my-3";
     searchContainer.innerHTML = `
-      <input type="text" id="searchBox" class="form-control w-50 mx-auto" placeholder="Search products..." />
+      <input type="text" id="searchBox" class="form-control w-50 mx-auto" placeholder="Search Indian fashion..." />
     `;
     productGrid.parentNode.insertBefore(searchContainer, productGrid);
 
@@ -95,5 +119,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
+  // ✅ Start App
   loadProducts();
 });
