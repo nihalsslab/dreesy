@@ -4,46 +4,66 @@
 <!-- header.html -->
 <header class="main-header fixed-top bg-white shadow-sm">
   <div class="container d-flex align-items-center justify-content-between py-2">
+    
     <!-- Logo -->
     <a href="index.html" class="navbar-brand d-flex align-items-center">
-      <img src="assets/images/logoname.png" alt="Logo" width="80" class="me-2">
+      <img src="assets/images/logoname.png" alt="Logo" class="logo-img me-2">
     </a>
 
-    <!-- Search Bar -->
+    <!-- Search Bar (Desktop Only) -->
     <div class="search-bar flex-grow-1 mx-3 d-none d-md-flex">
       <input type="text" class="form-control border-0 shadow-none" placeholder="Search for products, brands and more...">
-      <button class="btn btn-orange"><i class="bi bi-search"  ></i></button>
+      <button class="btn btn-orange"><i class="bi bi-search"></i></button>
     </div>
 
     <!-- Icons -->
     <div class="header-icons d-flex align-items-center gap-3">
       <a href="login.html" class="text-dark text-decoration-none d-flex align-items-center">
-        <i class="bi bi-person fs-5 me-1"></i> <span class="d-none d-md-inline">Login</span>
+        <i class="bi bi-person fs-5 me-1"></i> 
+        <span class="d-none d-md-inline">Login</span>
       </a>
-      <a href="cart.html" class="text-dark text-decoration-none d-flex align-items-center">
-        <i class="bi bi-cart3 fs-5 me-1"></i> <span class="d-none d-md-inline">Cart</span>
+      <a href="cart.html" class="text-dark text-decoration-none d-flex align-items-center position-relative">
+        <i class="bi bi-cart3 fs-5 me-1"></i> 
+        <span class="d-none d-md-inline">Cart</span>
+        <span class="cart-count">2</span>
       </a>
       <a href="seller.html" class="text-dark text-decoration-none d-flex align-items-center">
-        <i class="bi bi-shop fs-5 me-1"></i> <span class="d-none d-md-inline">Become a Seller</span>
+        <i class="bi bi-shop fs-5 me-1"></i> 
+        <span class="d-none d-md-inline">Seller</span>
       </a>
     </div>
 
     <!-- Mobile Search Icon -->
-    <button class="btn d-md-none" id="mobileSearchBtn"><i class="bi bi-search"></i></button>
+    <button class="btn d-md-none" id="mobileSearchBtn">
+      <i class="bi bi-search fs-5 text-orange"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Search (Hidden by Default) -->
+  <div class="mobile-search d-md-none px-3 pb-2" id="mobileSearchBar">
+    <div class="input-group">
+      <input type="text" class="form-control shadow-none" placeholder="Search products...">
+      <button class="btn btn-orange"><i class="bi bi-search"></i></button>
+    </div>
   </div>
 
   <!-- Navigation Menu -->
   <nav class="category-nav bg-light border-top">
     <div class="container d-flex justify-content-center flex-wrap py-2">
-      <a href="index.html" class="nav-link text-dark px-3">Home</a>
-      <a href="shop.html" class="nav-link text-dark px-3 active">Shop</a>
-      <a href="categories.html" class="nav-link text-dark px-3">Categories</a>
-      <a href="product.html" class="nav-link text-dark px-3">Product</a>
-      <a href="about.html" class="nav-link text-dark px-3">About</a>
-      <a href="faq.html" class="nav-link text-dark">Faq</a>
-      <a href="contact.html" class="nav-link text-dark px-3">Contact</a>
+      <a href="index.html" class="nav-link px-3">Home</a>
+      <a href="shop.html" class="nav-link px-3 active">Shop</a>
+      <a href="categories.html" class="nav-link px-3">Categories</a>
+      <a href="product.html" class="nav-link px-3">Product</a>
+      <a href="about.html" class="nav-link px-3">About</a>
+      <a href="faq.html" class="nav-link px-3">FAQ</a>
+      <a href="contact.html" class="nav-link px-3">Contact</a>
     </div>
   </nav>
 </header>
 
-
+<script>
+  // Mobile Search Toggle
+  document.getElementById("mobileSearchBtn").addEventListener("click", function() {
+    document.getElementById("mobileSearchBar").classList.toggle("d-none");
+  });
+</script>
