@@ -237,3 +237,17 @@ footer {
     height: 340px;
   }
 }
+/* FAQ Section */
+.accordion-button {
+  font-weight: 600;
+  color: #333;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #ff7b00;
+  color: #fff;
+}
+.accordion-body {
+  background: #fff;
+  color: #555;
+}
+
