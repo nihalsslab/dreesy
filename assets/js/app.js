@@ -1,4 +1,4 @@
-// CostumeVerse / Indian Fashion Shop – Only Fashion Products (From DummyJSON)
+// CostumeVerse / Ethnic Chic – Indian Fashion Shop
 document.addEventListener("DOMContentLoaded", () => {
   const productGrid = document.getElementById("product-grid");
   const filterButtons = document.querySelectorAll(".filter-btn");
@@ -63,7 +63,13 @@ document.addEventListener("DOMContentLoaded", () => {
               <h6 class="fw-bold text-truncate">${p.title}</h6>
               <p class="small text-muted text-capitalize">${p.category.replace("-", " ")}</p>
               <div class="price mb-2 fw-semibold text-orange">₹${p.price}</div>
-              <button class="btn btn-outline-orange btn-sm w-100">Add to Cart</button>
+              <button class="btn btn-outline-orange btn-sm w-100 add-to-cart-btn"
+                data-id="${p.id}"
+                data-title="${p.title}"
+                data-price="${p.price}"
+                data-image="${p.thumbnail}">
+                Add to Cart
+              </button>
             </div>
           </div>
         </div>
@@ -130,4 +136,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // ✅ Start App
   loadProducts();
+
+  // 🛒 Handle Add to Cart
+  document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("add-to-cart-btn")) {
+      const btn = e.target;
+      const product = {
+        id: btn.dataset.id,
+        title: btn.dataset.title,
+        price: parseInt(btn.dataset.price),
+        image: btn.dataset.image,
+        quantity: 1,
+      };
+
+      // Save product to localStorage
+      localStorage.setItem("orderProduct", JSON.stringify(product));
+
+      // Redirect to order page
+      window.location.href = "order.html";
+    }
+  });
 });
