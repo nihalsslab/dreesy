@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // ✅ Show only clothing, shoes, accessories — fashion-related items
       const fashionCategories = [
-        "mens-shirts",
         "mens-fashion",
         "womens-dresses",
         "tops",
@@ -151,4 +150,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
 
