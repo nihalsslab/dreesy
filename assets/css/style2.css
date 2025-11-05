@@ -205,38 +205,24 @@ footer {
   overflow: hidden;
 }
 
-/* Manufacturing video gallery */
-.manufacturing-videos {
-  background-color: #fffaf5;
-}
-
 .manufacturing-videos video {
-  height: 260px;
+  height: 280px;
   object-fit: cover;
-  background-color: #000;
   border-radius: 12px;
-  border: 3px solid #ff7b00; /* your orange theme */
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  pointer-events: none; /* disables video controls */
+  border: 3px solid #ff7b00;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  pointer-events: none;
+  transition: transform 0.3s ease;
 }
-
 .manufacturing-videos video:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 30px rgba(255, 123, 0, 0.4);
-}
-
-/* Responsive sizes */
-@media (min-width: 768px) {
-  .manufacturing-videos video {
-    height: 300px;
-  }
 }
 @media (min-width: 992px) {
   .manufacturing-videos video {
     height: 340px;
   }
 }
+
 /* FAQ Section */
 .accordion-button {
   font-weight: 600;
@@ -250,4 +236,61 @@ footer {
   background: #fff;
   color: #555;
 }
+.all-products .product-card img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.all-products .product-card img:hover {
+  transform: scale(1.05);
+}
 
+.btn-orange {
+  background-color: #ff7b00;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  transition: all 0.3s;
+}
+.btn-orange:hover {
+  background-color: #e66b00;
+}
+
+.text-orange {
+  color: #ff7b00 !important;
+}
+
+.btn-outline-orange {
+  border: 1px solid #ff7b00;
+  color: #ff7b00;
+}
+.btn-outline-orange:hover {
+  background: #ff7b00;
+  color: #fff;
+}
+
+.sizes button {
+  margin: 0 2px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .all-products .product-card img {
+    height: 180px;
+  }
+}
+.product-card img {
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.product-card img:hover {
+  transform: scale(1.05);
+}
+#productModal img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
