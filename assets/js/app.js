@@ -1,151 +1,34 @@
-// CostumeVerse / Ethnic Chic – Indian Fashion Shop
-document.addEventListener("DOMContentLoaded", () => {
-  const productGrid = document.getElementById("product-grid");
-  const filterButtons = document.querySelectorAll(".filter-btn");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shop all categories — Jeans, Sofas, and T-Shirts at unbeatable offers." />
+  <title>Shop | Ethnic Chic</title>
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style2.css" />
+  <script src="assets/js/include.js"></script>
+</head>
+<body>
 
-  // ✅ Fixed Indian Prices Only
-  const allowedPrices = [99, 199, 499, 999, 1999, 4999, 9999];
+<div id="header"></div>
+<div id="hero"></div>
 
-  // ✅ Load products from DummyJSON
-  async function loadProducts() {
-    try {
-      const res = await fetch("https://dummyjson.com/products?limit=194&skip=0");
-      const data = await res.json();
-      const allProducts = data.products;
+  <!-- Product Grid -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4" id="product-grid">
+        <!-- Products loaded dynamically -->
+      </div>
+    </div>
+  </section>
 
-      // ✅ Show only clothing, shoes, accessories — fashion-related items
-      const fashionCategories = [
-        "mens-shirts"
-      ];
+  <!-- Footer -->
+  <div id="footer"></div>
 
-      const fashionProducts = allProducts.filter((p) =>
-        fashionCategories.includes(p.category)
-      );
-
-      // ✅ Replace prices with allowed values randomly
-      const mappedProducts = fashionProducts.map((p) => ({
-        ...p,
-        price: allowedPrices[Math.floor(Math.random() * allowedPrices.length)],
-      }));
-
-      renderProducts(mappedProducts);
-      setupFilters(mappedProducts);
-      setupSearch(mappedProducts);
-    } catch (error) {
-      console.error("Error loading products:", error);
-      productGrid.innerHTML = `<p class="text-danger text-center">⚠️ Unable to load fashion products. Please refresh.</p>`;
-    }
-  }
-
-  // ✅ Render Product Cards
-  function renderProducts(products) {
-    if (!products.length) {
-      productGrid.innerHTML = `<p class="text-center text-muted">No fashion products found.</p>`;
-      return;
-    }
-
-    productGrid.innerHTML = products
-      .map(
-        (p) => `
-        <div class="col-sm-6 col-md-4 col-lg-3 product-card" data-category="${p.category}">
-          <div class="card shadow-sm h-100 border-0 anim-fade-up">
-            <img src="${p.thumbnail}" class="card-img-top" alt="${p.title}">
-            <div class="card-body text-center">
-              <h6 class="fw-bold text-truncate">${p.title}</h6>
-              <p class="small text-muted text-capitalize">${p.category.replace("-", " ")}</p>
-              <div class="price mb-2 fw-semibold text-orange">₹${p.price}</div>
-              <button class="btn btn-outline-orange btn-sm w-100 add-to-cart-btn"
-                data-id="${p.id}"
-                data-title="${p.title}"
-                data-price="${p.price}"
-                data-image="${p.thumbnail}">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </div>
-      `
-      )
-      .join("");
-  }
-
-  // ✅ Category Filter Buttons
-  function setupFilters(allProducts) {
-    filterButtons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        filterButtons.forEach((b) => b.classList.remove("active"));
-        btn.classList.add("active");
-
-        const filter = btn.dataset.filter;
-        let filtered = allProducts;
-
-        if (filter === "Men") {
-          filtered = allProducts.filter((p) => p.category.includes("mens"));
-        } else if (filter === "Women") {
-          filtered = allProducts.filter((p) => p.category.includes("womens"));
-        } else if (filter === "Kids") {
-          filtered = allProducts.filter(
-            (p) =>
-              p.title.toLowerCase().includes("kids") ||
-              p.category.toLowerCase().includes("kids")
-          );
-        } else if (filter === "Cultural") {
-          filtered = allProducts.filter(
-            (p) =>
-              p.title.toLowerCase().includes("kurta") ||
-              p.title.toLowerCase().includes("blouse") ||
-              p.title.toLowerCase().includes("saree") ||
-              p.title.toLowerCase().includes("ethnic")
-          );
-        }
-
-        renderProducts(filtered);
-      });
-    });
-  }
-
-  // ✅ Search Box Setup
-  function setupSearch(allProducts) {
-    const searchContainer = document.createElement("div");
-    searchContainer.className = "text-center my-3";
-    searchContainer.innerHTML = `
-      <input type="text" id="searchBox" class="form-control w-50 mx-auto" placeholder="Search Indian fashion..." />
-    `;
-    productGrid.parentNode.insertBefore(searchContainer, productGrid);
-
-    const searchBox = document.getElementById("searchBox");
-    searchBox.addEventListener("input", (e) => {
-      const term = e.target.value.toLowerCase();
-      const filtered = allProducts.filter(
-        (p) =>
-          p.title.toLowerCase().includes(term) ||
-          p.category.toLowerCase().includes(term)
-      );
-      renderProducts(filtered);
-    });
-  }
-
-  // ✅ Start App
-  loadProducts();
-
-  // 🛒 Handle Add to Cart
-  document.addEventListener("click", (e) => {
-    if (e.target.classList.contains("add-to-cart-btn")) {
-      const btn = e.target;
-      const product = {
-        id: btn.dataset.id,
-        title: btn.dataset.title,
-        price: parseInt(btn.dataset.price),
-        image: btn.dataset.image,
-        quantity: 1,
-      };
-
-      // Save product to localStorage
-      localStorage.setItem("orderProduct", JSON.stringify(product));
-
-      // Redirect to order page
-      window.location.href = "order.html";
-    }
-  });
-});
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.js"></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
