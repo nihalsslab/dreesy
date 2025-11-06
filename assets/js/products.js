@@ -130,8 +130,9 @@ document.addEventListener("DOMContentLoaded", () => {
       description:
         "Trendy printed T-shirt made from premium fabric for an expressive casual look.",
       images: [
-        "assets/images/products/tshirt/10.jpg",
-        "assets/images/products/tshirt/11.jpg",
+        "assets/images/products/1.jpeg",
+        "assets/images/products/2.jpeg",
+        "assets/images/products/3.jpeg",
       ],
     },
     {
@@ -404,4 +405,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1000);
   });
 });
+
 
