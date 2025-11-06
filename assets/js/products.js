@@ -236,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
     id: 14,
     name: "Casual Blue Chinos",
     category: "Women’s Fashion",
-    price: 9999,
+    price: 99,
     offer: "12% OFF",
     gender: "Women",
     sizes: ["S", "M", "L", "XL"],
@@ -404,3 +404,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1000);
   });
 });
+
