@@ -1,0 +1,2414 @@
+[
+  {
+    "id": 1,
+    "title": "Urban Slim Fit Jeans",
+    "category": "Jeans",
+    "price": 4499,
+    "new_price": 3824,
+    "offer": "15%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "Modern slim-fit jeans crafted from stretch denim for a sleek urban look and lasting comfort.",
+    "images": [
+      "assets/images/products/jeans/1.jpg",
+      "assets/images/products/jeans/2.jpg",
+      "assets/images/products/jeans/3.jpg",
+      "assets/images/products/jeans/4.jpg",
+      "assets/images/products/jeans/5.jpg",
+      "assets/images/products/jeans/6.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Vintage Indigo Denim",
+    "category": "Jeans",
+    "price": 5299,
+    "new_price": 4769,
+    "offer": "10%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "Classic straight-cut jeans in durable indigo denim with a subtle fade finish for vintage charm.",
+    "images": [
+      "assets/images/products/jeans/7.jpg",
+      "assets/images/products/jeans/8.jpg",
+      "assets/images/products/jeans/9.jpg",
+      "assets/images/products/jeans/10.jpg",
+      "assets/images/products/jeans/11.jpg",
+      "assets/images/products/jeans/12.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Stone Wash Tapered Jeans",
+    "category": "Jeans",
+    "price": 3800,
+    "new_price": 3040,
+    "offer": "20%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.2,
+    "description": "A modern tapered leg with a timeless stone wash finish, perfect for versatile, everyday wear.",
+    "images": [
+      "assets/images/products/jeans/13.jpg",
+      "assets/images/products/jeans/14.jpg",
+      "assets/images/products/jeans/15.jpg",
+      "assets/images/products/jeans/16.jpg",
+      "assets/images/products/jeans/17.jpg",
+      "assets/images/products/jeans/18.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Black Stretch Skinny",
+    "category": "Jeans",
+    "price": 4999,
+    "new_price": 4749,
+    "offer": "5%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "Sleek, jet-black skinny jeans featuring high-stretch fabric for a form-fitting, comfortable silhouette.",
+    "images": [
+      "assets/images/products/jeans/19.jpg",
+      "assets/images/products/jeans/20.jpg",
+      "assets/images/products/jeans/21.jpg",
+      "assets/images/products/jeans/22.jpg",
+      "assets/images/products/jeans/23.jpg",
+      "assets/images/products/jeans/24.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Classic Straight Leg",
+    "category": "Jeans",
+    "price": 3499,
+    "new_price": 3149,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": false,
+    "rating": 4.4,
+    "description": "The essential straight-leg jean in a timeless blue wash, made from 100% premium cotton denim.",
+    "images": [
+      "assets/images/products/jeans/25.jpg",
+      "assets/images/products/jeans/26.jpg",
+      "assets/images/products/jeans/27.jpg",
+      "assets/images/products/jeans/28.jpg",
+      "assets/images/products/jeans/29.jpg",
+      "assets/images/products/jeans/30.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Light Wash Boyfriend Cut",
+    "category": "Jeans",
+    "price": 5100,
+    "new_price": 3825,
+    "offer": "25%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "Effortlessly cool boyfriend-fit jeans in a light vintage wash, offering a comfortable, relaxed look.",
+    "images": [
+      "assets/images/products/jeans/31.jpg",
+      "assets/images/products/jeans/32.jpg",
+      "assets/images/products/jeans/33.jpg",
+      "assets/images/products/jeans/34.jpg",
+      "assets/images/products/jeans/35.jpg",
+      "assets/images/products/jeans/36.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Raw Indigo Selvedge",
+    "category": "Jeans",
+    "price": 8500,
+    "new_price": 7650,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.9,
+    "description": "Premium raw indigo selvedge denim designed to break in and fade beautifully over time.",
+    "images": [
+      "assets/images/products/jeans/37.jpg",
+      "assets/images/products/jeans/38.jpg",
+      "assets/images/products/jeans/39.jpg",
+      "assets/images/products/jeans/40.jpg",
+      "assets/images/products/jeans/41.jpg",
+      "assets/images/products/jeans/42.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "High-Waist Flare Jeans",
+    "category": "Jeans",
+    "price": 6200,
+    "new_price": 5270,
+    "offer": "15%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "Retro-inspired high-waist jeans that fit slim through the thigh and flare dramatically at the hem.",
+    "images": [
+      "assets/images/products/jeans/43.jpg",
+      "assets/images/products/jeans/44.jpg",
+      "assets/images/products/jeans/45.jpg",
+      "assets/images/products/jeans/46.jpg",
+      "assets/images/products/jeans/47.jpg",
+      "assets/images/products/jeans/48.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Destroyed Relaxed Fit",
+    "category": "Jeans",
+    "price": 5800,
+    "new_price": 4060,
+    "offer": "30%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.0,
+    "description": "A comfortable relaxed fit with heavily distressed details and ripping for a rugged, worn-in vibe.",
+    "images": [
+      "assets/images/products/jeans/49.jpg",
+      "assets/images/products/jeans/50.jpg",
+      "assets/images/products/jeans/51.jpg",
+      "assets/images/products/jeans/52.jpg",
+      "assets/images/products/jeans/53.jpg",
+      "assets/images/products/jeans/54.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Acid Wash Mom Jeans",
+    "category": "Jeans",
+    "price": 5600,
+    "new_price": 5040,
+    "offer": "10%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.1,
+    "description": "Iconic '90s high-waisted 'mom jean' fit, updated with a bold acid wash and tapered leg.",
+    "images": [
+      "assets/images/products/jeans/55.jpg",
+      "assets/images/products/jeans/56.jpg",
+      "assets/images/products/jeans/57.jpg",
+      "assets/images/products/jeans/58.jpg",
+      "assets/images/products/jeans/59.jpg",
+      "assets/images/products/jeans/60.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Midnight Black Bootcut",
+    "category": "Jeans",
+    "price": 4499,
+    "new_price": 4274,
+    "offer": "5%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "Versatile bootcut jeans in a deep midnight black wash, designed to fit over boots or sneakers.",
+    "images": [
+      "assets/images/products/jeans/61.jpg",
+      "assets/images/products/jeans/62.jpg",
+      "assets/images/products/jeans/63.jpg",
+      "assets/images/products/jeans/64.jpg",
+      "assets/images/products/jeans/65.jpg",
+      "assets/images/products/jeans/66.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Faded Grey Slim Taper",
+    "category": "Jeans",
+    "price": 4800,
+    "new_price": 4080,
+    "offer": "15%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "Soft, stretch denim in a faded grey wash with a modern slim fit that tapers below the knee.",
+    "images": [
+      "assets/images/products/jeans/67.jpg",
+      "assets/images/products/jeans/68.jpg",
+      "assets/images/products/jeans/69.jpg",
+      "assets/images/products/jeans/70.jpg",
+      "assets/images/products/jeans/71.jpg",
+      "assets/images/products/jeans/72.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Premium Cotton Relaxed",
+    "category": "Jeans",
+    "price": 6500,
+    "new_price": 5850,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "Crafted from heavyweight premium cotton, these jeans offer a relaxed fit for superior comfort.",
+    "images": [
+      "assets/images/products/jeans/73.jpg",
+      "assets/images/products/jeans/74.jpg",
+      "assets/images/products/jeans/75.jpg",
+      "assets/images/products/jeans/76.jpg",
+      "assets/images/products/jeans/77.jpg",
+      "assets/images/products/jeans/78.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Optic White Skinny",
+    "category": "Jeans",
+    "price": 4300,
+    "new_price": 3440,
+    "offer": "20%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "A crisp, optic white skinny jean made with stretch fabric for a clean, sharp, and modern look.",
+    "images": [
+      "assets/images/products/jeans/79.jpg",
+      "assets/images/products/jeans/80.jpg",
+      "assets/images/products/jeans/81.jpg",
+      "assets/images/products/jeans/82.jpg",
+      "assets/images/products/jeans/83.jpg",
+      "assets/images/products/jeans/84.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Ripped Knee Straight Fit",
+    "category": "Jeans",
+    "price": 5200,
+    "new_price": 4680,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.1,
+    "description": "A classic straight fit in a light blue wash, featuring distressed rips at the knees for an edgy style.",
+    "images": [
+      "assets/images/products/jeans/85.jpg",
+      "assets/images/products/jeans/86.jpg",
+      "assets/images/products/jeans/87.jpg",
+      "assets/images/products/jeans/88.jpg",
+      "assets/images/products/jeans/89.jpg",
+      "assets/images/products/jeans/90.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Dark Indigo Bootcut",
+    "category": "Jeans",
+    "price": 5999,
+    "new_price": 5099,
+    "offer": "15%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "Flattering bootcut jeans in a sophisticated dark indigo wash, perfect for dressing up or down.",
+    "images": [
+      "assets/images/products/jeans/91.jpg",
+      "assets/images/products/jeans/92.jpg",
+      "assets/images/products/jeans/93.jpg",
+      "assets/images/products/jeans/94.jpg",
+      "assets/images/products/jeans/95.jpg",
+      "assets/images/products/jeans/96.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Cropped Wide-Leg Denim",
+    "category": "Jeans",
+    "price": 5600,
+    "new_price": 5040,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.2,
+    "description": "Fashion-forward wide-leg jeans with a modern cropped length and a comfortable high-rise waist.",
+    "images": [
+      "assets/images/products/jeans/97.jpg",
+      "assets/images/products/jeans/98.jpg",
+      "assets/images/products/jeans/99.jpg",
+      "assets/images/products/jeans/100.jpg",
+      "assets/images/products/jeans/101.jpg",
+      "assets/images/products/jeans/102.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Athletic Taper Fit",
+    "category": "Jeans",
+    "price": 6300,
+    "new_price": 5985,
+    "offer": "5%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "Designed for athletic builds with more room in the seat and thigh, tapering to a clean ankle.",
+    "images": [
+      "assets/images/products/jeans/103.jpg",
+      "assets/images/products/jeans/104.jpg",
+      "assets/images/products/jeans/105.jpg",
+      "assets/images/products/jeans/106.jpg",
+      "assets/images/products/jeans/107.jpg",
+      "assets/images/products/jeans/108.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Jet Black High-Rise",
+    "category": "Jeans",
+    "price": 5400,
+    "new_price": 4860,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.4,
+    "description": "A deep, saturated jet black wash in a flattering high-rise cut that defines the waist.",
+    "images": [
+      "assets/images/products/jeans/109.jpg",
+      "assets/images/products/jeans/110.jpg",
+      "assets/images/products/jeans/111.jpg",
+      "assets/images/products/jeans/112.jpg",
+      "assets/images/products/jeans/113.jpg",
+      "assets/images/products/jeans/114.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Comfort Stretch Straight",
+    "category": "Jeans",
+    "price": 3600,
+    "new_price": 2880,
+    "offer": "20%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "Classic straight-fit jeans engineered with comfort-stretch denim for all-day flexibility.",
+    "images": [
+      "assets/images/products/jeans/115.jpg",
+      "assets/images/products/jeans/116.jpg",
+      "assets/images/products/jeans/117.jpg",
+      "assets/images/products/jeans/118.jpg",
+      "assets/images/products/jeans/119.jpg",
+      "assets/images/products/jeans/120.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Distressed Blue Denim",
+    "category": "Jeans",
+    "price": 5100,
+    "new_price": 4335,
+    "offer": "15%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "Perfectly faded blue denim with artful distressing and subtle whiskering for a lived-in feel.",
+    "images": [
+      "assets/images/products/jeans/121.jpg",
+      "assets/images/products/jeans/122.jpg",
+      "assets/images/products/jeans/123.jpg",
+      "assets/images/products/jeans/124.jpg",
+      "assets/images/products/jeans/125.jpg",
+      "assets/images/products/jeans/126.jpg",
+      "assets/images/products/jeans/127.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Sandstone Relaxed Fit",
+    "category": "Jeans",
+    "price": 4200,
+    "new_price": 3780,
+    "offer": "10%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.0,
+    "description": "Relaxed-fit jeans in a unique sandstone color, offering a comfortable and stylish alternative to blue.",
+    "images": [
+      "assets/images/products/jeans/128.jpg",
+      "assets/images/products/jeans/129.jpg",
+      "assets/images/products/jeans/130.jpg",
+      "assets/images/products/jeans/131.jpg",
+      "assets/images/products/jeans/132.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Eco-Friendly Organic Denim",
+    "category": "Jeans",
+    "price": 7500,
+    "new_price": 7125,
+    "offer": "5%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.9,
+    "description": "Sustainably made from 100% organic cotton, these jeans feature a clean rinse and classic fit.",
+    "images": [
+      "assets/images/products/jeans/133.jpg",
+      "assets/images/products/jeans/134.jpg",
+      "assets/images/products/jeans/135.jpg",
+      "assets/images/products/jeans/136.jpg",
+      "assets/images/products/jeans/137.jpg",
+      "assets/images/products/jeans/138.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "'90s Baggy Fit Jeans",
+    "category": "Jeans",
+    "price": 5300,
+    "new_price": 4770,
+    "offer": "10%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.2,
+    "description": "A true '90s-inspired baggy fit with a low rise and wide leg, crafted from rigid cotton denim.",
+    "images": [
+      "assets/images/products/jeans/139.jpg",
+      "assets/images/products/jeans/140.jpg",
+      "assets/images/products/jeans/141.jpg",
+      "assets/images/products/jeans/142.jpg",
+      "assets/images/products/jeans/143.jpg",
+      "assets/images/products/jeans/144.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Washed Black Slim",
+    "category": "Jeans",
+    "price": 4600,
+    "new_price": 3910,
+    "offer": "15%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "Our signature slim-fit jean in a perfectly washed black denim for a soft feel and faded look.",
+    "images": [
+      "assets/images/products/jeans/145.jpg",
+      "assets/images/products/jeans/146.jpg",
+      "assets/images/products/jeans/147.jpg",
+      "assets/images/products/jeans/148.jpg",
+      "assets/images/products/jeans/149.jpg",
+      "assets/images/products/jeans/150.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Deep Blue Regular Fit",
+    "category": "Jeans",
+    "price": 3100,
+    "new_price": 2945,
+    "offer": "5%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.4,
+    "description": "A timeless regular fit jean in a clean, deep blue wash that works for any occasion.",
+    "images": [
+      "assets/images/products/jeans/151.jpg",
+      "assets/images/products/jeans/152.jpg",
+      "assets/images/products/jeans/153.jpg",
+      "assets/images/products/jeans/154.jpg",
+      "assets/images/products/jeans/155.jpg",
+      "assets/images/products/jeans/156.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Faded Sky Blue Skinny",
+    "category": "Jeans",
+    "price": 5100,
+    "new_price": 3825,
+    "offer": "25%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "A high-rise skinny jean in a beautiful faded sky blue wash, made with super-stretch denim.",
+    "images": [
+      "assets/images/products/jeans/157.jpg",
+      "assets/images/products/jeans/158.jpg",
+      "assets/images/products/jeans/159.jpg",
+      "assets/images/products/jeans/160.jpg",
+      "assets/images/products/jeans/161.jpg",
+      "assets/images/products/jeans/162.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Carpenter Style Jeans",
+    "category": "Jeans",
+    "price": 6800,
+    "new_price": 6120,
+    "offer": "10%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "Utility-inspired carpenter jeans featuring a hammer loop and extra pockets in durable cotton twill.",
+    "images": [
+      "assets/images/products/jeans/163.jpg",
+      "assets/images/products/jeans/164.jpg",
+      "assets/images/products/jeans/165.jpg",
+      "assets/images/products/jeans/166.jpg",
+      "assets/images/products/jeans/167.jpg",
+      "assets/images/products/jeans/168.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Selvedge Chino Denim",
+    "category": "Jeans",
+    "price": 9200,
+    "new_price": 8740,
+    "offer": "5%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "A unique hybrid of a chino pant and selvedge denim, offering a smart, tapered silhouette.",
+    "images": [
+      "assets/images/products/jeans/169.jpg",
+      "assets/images/products/jeans/170.jpg",
+      "assets/images/products/jeans/171.jpg",
+      "assets/images/products/jeans/172.jpg",
+      "assets/images/products/jeans/173.jpg",
+      "assets/images/products/jeans/174.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Vintage Wash Flare",
+    "category": "Jeans",
+    "price": 5900,
+    "new_price": 5015,
+    "offer": "15%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": false,
+    "rating": 4.4,
+    "description": "High-rise flare jeans with a distinct '70s vibe, featuring a soft vintage wash and raw hem.",
+    "images": [
+      "assets/images/products/jeans/175.jpg",
+      "assets/images/products/jeans/176.jpg",
+      "assets/images/products/jeans/177.jpg",
+      "assets/images/products/jeans/178.jpg",
+      "assets/images/products/jeans/179.jpg",
+      "assets/images/products/jeans/180.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Graphite Grey Tapered",
+    "category": "Jeans",
+    "price": 4999,
+    "new_price": 4499,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A modern tapered fit in a versatile graphite grey wash, made with comfort-stretch denim.",
+    "images": [
+      "assets/images/products/jeans/181.jpg",
+      "assets/images/products/jeans/182.jpg",
+      "assets/images/products/jeans/183.jpg",
+      "assets/images/products/jeans/184.jpg",
+      "assets/images/products/jeans/185.jpg",
+      "assets/images/products/jeans/186.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Biker-Style Moto Jeans",
+    "category": "Jeans",
+    "price": 7300,
+    "new_price": 5840,
+    "offer": "20%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.1,
+    "description": "Edgy biker-style jeans featuring ribbed moto panels, zip details, and a slim, tapered fit.",
+    "images": [
+      "assets/images/products/jeans/187.jpg",
+      "assets/images/products/jeans/188.jpg",
+      "assets/images/products/jeans/189.jpg",
+      "assets/images/products/jeans/190.jpg",
+      "assets/images/products/jeans/191.jpg",
+      "assets/images/products/jeans/192.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Classic Indigo Regular",
+    "category": "Jeans",
+    "price": 2999,
+    "new_price": 2849,
+    "offer": "5%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "A dependable regular-fit jean in a classic indigo wash. Made from 100% durable cotton.",
+    "images": [
+      "assets/images/products/jeans/193.jpg",
+      "assets/images/products/jeans/194.jpg",
+      "assets/images/products/jeans/195.jpg",
+      "assets/images/products/jeans/196.jpg",
+      "assets/images/products/jeans/197.jpg",
+      "assets/images/products/jeans/198.jpg",
+      "assets/images/products/jeans/199.jpg"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Comfy Lounge 3-Seater",
+    "category": "Sofa",
+    "price": 24999,
+    "new_price": 19999,
+    "offer": "20%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "Elegant 3-seater sofa made with soft linen fabric and premium wooden frame, perfect for modern homes.",
+    "images": [
+      "assets/images/products/sofa/1.jpg",
+      "assets/images/products/sofa/2.jpg",
+      "assets/images/products/sofa/3.jpg",
+      "assets/images/products/sofa/4.jpg",
+      "assets/images/products/sofa/5.jpg",
+      "assets/images/products/sofa/6.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Modern Velvet Loveseat",
+    "category": "Sofa",
+    "price": 18999,
+    "new_price": 16149,
+    "offer": "15%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "A stylish 2-seater loveseat upholstered in plush velvet with gold-finish metal legs.",
+    "images": [
+      "assets/images/products/sofa/7.jpg",
+      "assets/images/products/sofa/8.jpg",
+      "assets/images/products/sofa/9.jpg",
+      "assets/images/products/sofa/10.jpg",
+      "assets/images/products/sofa/11.jpg",
+      "assets/images/products/sofa/12.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Minimalist Linen Sofa",
+    "category": "Sofa",
+    "price": 22500,
+    "new_price": 20250,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "Clean, minimalist design with breathable linen upholstery and solid oak legs for a Scandinavian look.",
+    "images": [
+      "assets/images/products/sofa/13.jpg",
+      "assets/images/products/sofa/14.jpg",
+      "assets/images/products/sofa/15.jpg",
+      "assets/images/products/sofa/16.jpg",
+      "assets/images/products/sofa/17.jpg",
+      "assets/images/products/sofa/18.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Classic Leather Chesterfield",
+    "category": "Sofa",
+    "price": 25000,
+    "new_price": 23750,
+    "offer": "5%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.9,
+    "description": "Timeless Chesterfield sofa in genuine brown leather, featuring deep button tufting and rolled arms.",
+    "images": [
+      "assets/images/products/sofa/19.jpg",
+      "assets/images/products/sofa/20.jpg",
+      "assets/images/products/sofa/21.jpg",
+      "assets/images/products/sofa/22.jpg",
+      "assets*images/products/sofa/23.jpg",
+      "assets/images/products/sofa/24.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "L-Shape Sectional",
+    "category": "Sofa",
+    "price": 24800,
+    "new_price": 18600,
+    "offer": "25%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "Spacious L-shape sectional sofa with a reversible chaise, perfect for large living rooms and families.",
+    "images": [
+      "assets/images/products/sofa/25.jpg",
+      "assets/images/products/sofa/26.jpg",
+      "assets/images/products/sofa/27.jpg",
+      "assets/images/products/sofa/28.jpg",
+      "assets/images/products/sofa/29.jpg",
+      "assets/images/products/sofa/30.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Modular Chaise Lounge",
+    "category": "Sofa",
+    "price": 21000,
+    "new_price": 18900,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.4,
+    "description": "A versatile modular sofa set that can be rearranged, complete with a comfortable chaise lounge.",
+    "images": [
+      "assets/images/products/sofa/31.jpg",
+      "assets/images/products/sofa/32.jpg",
+      "assets/images/products/sofa/33.jpg",
+      "assets/images/products/sofa/34.jpg",
+      "assets/images/products/sofa/35.jpg",
+      "assets/images/products/sofa/36.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Scandinavian 2-Seater",
+    "category": "Sofa",
+    "price": 16500,
+    "new_price": 14025,
+    "offer": "15%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "Compact and stylish 2-seater sofa with a clean 'Scandi' design, ideal for apartments.",
+    "images": [
+      "assets/images/products/sofa/37.jpg",
+      "assets/images/products/sofa/38.jpg",
+      "assets/images/products/sofa/39.jpg",
+      "assets/images/products/sofa/40.jpg",
+      "assets/images/products/sofa/41.jpg",
+      "assets/images/products/sofa/42.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Mid-Century Modern Sofa",
+    "category": "Sofa",
+    "price": 19999,
+    "new_price": 17999,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "Iconic mid-century design with tapered wooden legs and tufted back cushions in a neutral fabric.",
+    "images": [
+      "assets/images/products/sofa/43.jpg",
+      "assets/images/products/sofa/44.jpg",
+      "assets/images/products/sofa/45.jpg",
+      "assets/images/products/sofa/46.jpg",
+      "assets/images/products/sofa/47.jpg",
+      "assets/images/products/sofa/48.jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Plush Recliner Sofa",
+    "category": "Sofa",
+    "price": 24500,
+    "new_price": 19600,
+    "offer": "20%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "Ultimate comfort with this 3-seater manual recliner sofa, featuring plush cushioning and cup holders.",
+    "images": [
+      "assets/images/products/sofa/49.jpg",
+      "assets/images/products/sofa/50.jpg",
+      "assets/images/products/sofa/51.jpg",
+      "assets/images/products/sofa/52.jpg",
+      "assets/images/products/sofa/53.jpg",
+      "assets/images/products/sofa/54.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Futon Sleeper Sofa",
+    "category": "Sofa",
+    "price": 15999,
+    "new_price": 11199,
+    "offer": "30%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.0,
+    "description": "Multi-functional futon sofa that easily converts into a comfortable bed for guests.",
+    "images": [
+      "assets/images/products/sofa/55.jpg",
+      "assets/images/products/sofa/56.jpg",
+      "assets/images/products/sofa/57.jpg",
+      "assets/images/products/sofa/58.jpg",
+      "assets/images/products/sofa/59.jpg",
+      "assets/images/products/sofa/60.jpg"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Velvet Tufted Sofa",
+    "category": "Sofa",
+    "price": 21800,
+    "new_price": 19620,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "Luxurious velvet sofa in emerald green, featuring elegant channel tufting and a modern design.",
+    "images": [
+      "assets/images/products/sofa/61.jpg",
+      "assets/images/products/sofa/62.jpg",
+      "assets/images/products/sofa/63.jpg",
+      "assets/images/products/sofa/64.jpg",
+      "assets/images/products/sofa/65.jpg",
+      "assets/images/products/sofa/66.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Corner Wedge Sofa",
+    "category": "Sofa",
+    "price": 23000,
+    "new_price": 19550,
+    "offer": "15%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": false,
+    "rating": 4.5,
+    "description": "Maximize your space with this smart corner wedge sofa, upholstered in durable, easy-clean fabric.",
+    "images": [
+      "assets/images/products/sofa/67.jpg",
+      "assets/images/products/sofa/68.jpg",
+      "assets/images/products/sofa/69.jpg",
+      "assets/images/products/sofa/70.jpg",
+      "assets/images/products/sofa/71.jpg",
+      "assets/images/products/sofa/72.jpg"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Contemporary Settee",
+    "category": "Sofa",
+    "price": 14500,
+    "new_price": 13775,
+    "offer": "5%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.2,
+    "description": "A stylish and compact settee, perfect for entryways, bedrooms, or small living spaces.",
+    "images": [
+      "assets/images/products/sofa/73.jpg",
+      "assets/images/products/sofa/74.jpg",
+      "assets/images/products/sofa/75.jpg",
+      "assets/images/products/sofa/76.jpg",
+      "assets/images/products/sofa/77.jpg",
+      "assets/images/products/sofa/78.jpg"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Boucle Fabric Sofa",
+    "category": "Sofa",
+    "price": 22999,
+    "new_price": 20699,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "On-trend sofa upholstered in soft, textured boucle fabric with a curved, modern silhouette.",
+    "images": [
+      "assets/images/products/sofa/79.jpg",
+      "assets/images/products/sofa/80.jpg",
+      "assets/images/products/sofa/81.jpg",
+      "assets/images/products/sofa/82.jpg",
+      "assets/images/products/sofa/83.jpg",
+      "assets/images/products/sofa/84.jpg"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Deep Seat Sofa",
+    "category": "Sofa",
+    "price": 24000,
+    "new_price": 20400,
+    "offer": "15%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "Designed for ultimate lounging with extra-deep seats and plush, down-filled cushions.",
+    "images": [
+      "assets/images/products/sofa/85.jpg",
+      "assets/images/products/sofa/86.jpg",
+      "assets/images/products/sofa/87.jpg",
+      "assets/images/products/sofa/88.jpg",
+      "assets/images/products/sofa/89.jpg",
+      "assets/images/products/sofa/90.jpg"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Elegant Lawson",
+    "category": "Sofa",
+    "price": 18500,
+    "new_price": 17575,
+    "offer": "5%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A classic Lawson-style sofa featuring comfortable cushions and low, rolled arms for a timeless look.",
+    "images": [
+      "assets/images/products/sofa/91.jpg",
+      "assets/images/products/sofa/92.jpg",
+      "assets/images/products/sofa/93.jpg",
+      "assets/images/products/sofa/94.jpg",
+      "assets/images/products/sofa/95.jpg",
+      "assets/images/products/sofa/96.jpg"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Tuxedo Sofa",
+    "category": "Sofa",
+    "price": 20500,
+    "new_price": 18450,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "A sophisticated tuxedo sofa with arms and back at the same height, featuring clean lines and tufting.",
+    "images": [
+      "assets/images/products/sofa/97.jpg",
+      "assets/images/products/sofa/98.jpg",
+      "assets/images/products/sofa/99.jpg",
+      "assets/images/products/sofa/100.jpg",
+      "assets/images/products/sofa/101.jpg",
+      "assets/images/products/sofa/102.jpg"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Bridgewater Sofa",
+    "category": "Sofa",
+    "price": 17800,
+    "new_price": 16020,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.4,
+    "description": "A casual and comfortable Bridgewater sofa, defined by its low, set-back arms and soft profile.",
+    "images": [
+      "assets/images/products/sofa/103.jpg",
+      "assets/images/products/sofa/104.jpg",
+      "assets/images/products/sofa/105.jpg",
+      "assets/images/products/sofa/106.jpg",
+      "assets/images/products/sofa/107.jpg",
+      "assets/images/products/sofa/108.jpg"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Camelback Sofa",
+    "category": "Sofa",
+    "price": 21500,
+    "new_price": 18275,
+    "offer": "15%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A traditional camelback sofa with an elegant curved back, exposed wood legs, and formal feel.",
+    "images": [
+      "assets/images/products/sofa/109.jpg",
+      "assets/images/products/sofa/110.jpg",
+      "assets/images/products/sofa/111.jpg",
+      "assets/images/products/sofa/112.jpg",
+      "assets/images/products/sofa/113.jpg",
+      "assets/images/products/sofa/114.jpg"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Slipper Sofa",
+    "category": "Sofa",
+    "price": 13999,
+    "new_price": 11199,
+    "offer": "20%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.1,
+    "description": "An armless slipper sofa with a compact, space-saving design and a high back for support.",
+    "images": [
+      "assets/images/products/sofa/115.jpg",
+      "assets/images/products/sofa/116.jpg",
+      "assets/images/products/sofa/117.jpg",
+      "assets/images/products/sofa/118.jpg",
+      "assets/images/products/sofa/119.jpg",
+      "assets/images/products/sofa/120.jpg"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Petite Loveseat",
+    "category": "Sofa",
+    "price": 12999,
+    "new_price": 12349,
+    "offer": "5%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "A petite 2-seater loveseat designed for small apartments, studios, or cozy reading nooks.",
+    "images": [
+      "assets/images/products/sofa/121.jpg",
+      "assets/images/products/sofa/122.jpg",
+      "assets/images/products/sofa/123.jpg",
+      "assets/images/products/sofa/124.jpg",
+      "assets/images/products/sofa/125.jpg",
+      "assets/images/products/sofa/126.jpg"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "U-Shape Modular",
+    "category": "Sofa",
+    "price": 25000,
+    "new_price": 22500,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "A large, U-shaped modular sectional that provides ample seating for entertaining guests.",
+    "images": [
+      "assets/images/products/sofa/127.jpg",
+      "assets/images/products/sofa/128.jpg",
+      "assets/images/products/sofa/129.jpg",
+      "assets/images/products/sofa/130.jpg",
+      "assets/images/products/sofa/131.jpg",
+      "assets/images/products/sofa/132.jpg"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Chesterfield Velvet",
+    "category": "Sofa",
+    "price": 24999,
+    "new_price": 21249,
+    "offer": "15%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "A modern take on the Chesterfield, upholstered in soft navy blue velvet with classic tufting.",
+    "images": [
+      "assets/images/products/sofa/133.jpg",
+      "assets/images/products/sofa/134.jpg",
+      "assets/images/products/sofa/135.jpg",
+      "assets/images/products/sofa/136.jpg",
+      "assets/images/products/sofa/137.jpg",
+      "assets/images/products/sofa/138.jpg"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Apartment Sofa",
+    "category": "Sofa",
+    "price": 15500,
+    "new_price": 14725,
+    "offer": "5%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "Perfectly scaled for smaller living spaces, this apartment sofa offers comfort without the bulk.",
+    "images": [
+      "assets/images/products/sofa/139.jpg",
+      "assets/images/products/sofa/140.jpg",
+      "assets/images/products/sofa/141.jpg",
+      "assets/images/products/sofa/142.jpg",
+      "assets/images/products/sofa/143.jpg",
+      "assets/images/products/sofa/144.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Low-Profile Sectional",
+    "category": "Sofa",
+    "price": 23500,
+    "new_price": 21150,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A sleek, low-profile sectional with a deep seat for a relaxed, contemporary vibe.",
+    "images": [
+      "assets/images/products/sofa/145.jpg",
+      "assets/images/products/sofa/146.jpg",
+      "assets/images/products/sofa/147.jpg",
+      "assets/images/products/sofa/148.jpg",
+      "assets/images/products/sofa/149.jpg",
+      "assets/images/products/sofa/150.jpg"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Roll Arm Sofa",
+    "category": "Sofa",
+    "price": 18200,
+    "new_price": 14560,
+    "offer": "20%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.4,
+    "description": "A comfortable, classic sofa featuring traditional rolled arms and soft, durable upholstery.",
+    "images": [
+      "assets/images/products/sofa/151.jpg",
+      "assets/images/products/sofa/152.jpg",
+      "assets/images/products/sofa/153.jpg",
+      "assets/images/products/sofa/154.jpg",
+      "assets/images/products/sofa/155.jpg",
+      "assets/images/products/sofa/156.jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Shelter Sofa",
+    "category": "Sofa",
+    "price": 20999,
+    "new_price": 19949,
+    "offer": "5%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "A modern shelter sofa with high arms that create a cozy, enclosed feeling.",
+    "images": [
+      "assets/images/products/sofa/157.jpg",
+      "assets/images/products/sofa/158.jpg",
+      "assets/images/products/sofa/159.jpg",
+      "assets/images/products/sofa/160.jpg",
+      "assets/images/products/sofa/161.jpg",
+      "assets/images/products/sofa/162.jpg"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Outdoor Wicker Sofa",
+    "category": "Sofa",
+    "price": 19500,
+    "new_price": 16575,
+    "offer": "15%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "Durable all-weather wicker sofa with plush, water-resistant cushions for your patio or garden.",
+    "images": [
+      "assets/images/products/sofa/163.jpg",
+      "assets/images/products/sofa/164.jpg",
+      "assets/images/products/sofa/165.jpg",
+      "assets/images/products/sofa/166.jpg",
+      "assets/images/products/sofa/167.jpg",
+      "assets/images/products/sofa/168.jpg"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Leatherette Recliner",
+    "category": "Sofa",
+    "price": 23800,
+    "new_price": 21420,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": false,
+    "rating": 4.2,
+    "description": "A sleek 3-seater recliner upholstered in easy-to-clean brown leatherette.",
+    "images": [
+      "assets/images/products/sofa/169.jpg",
+      "assets/images/products/sofa/170.jpg",
+      "assets/images/products/sofa/171.jpg",
+      "assets/images/products/sofa/172.jpg",
+      "assets/images/products/sofa/173.jpg",
+      "assets/images/products/sofa/174.jpg"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Kids' Mini-Sofa",
+    "category": "Sofa",
+    "price": 8999,
+    "new_price": 8549,
+    "offer": "5%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "A fun and sturdy mini-sofa, perfectly sized for a child's playroom or bedroom.",
+    "images": [
+      "assets/images/products/sofa/175.jpg",
+      "assets/images/products/sofa/176.jpg",
+      "assets/images/products/sofa/177.jpg",
+      "assets/images/products/sofa/178.jpg",
+      "assets/images/products/sofa/179.jpg",
+      "assets/images/products/sofa/180.jpg"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Office Lounge Sofa",
+    "category": "Sofa",
+    "price": 17000,
+    "new_price": 15300,
+    "offer": "10%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "Professional and comfortable lounge sofa designed for office reception areas or break rooms.",
+    "images": [
+      "assets/images/products/sofa/181.jpg",
+      "assets/images/products/sofa/182.jpg",
+      "assets/images/products/sofa/183.jpg",
+      "assets/images/products/sofa/184.jpg",
+      "assets/images/products/sofa/185.jpg",
+      "assets/images/products/sofa/186.jpg"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Luxury Chaise Lounge",
+    "category": "Sofa",
+    "price": 16999,
+    "new_price": 14449,
+    "offer": "15%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "An elegant, single-arm chaise lounge in plush fabric, perfect for relaxing with a book.",
+    "images": [
+      "assets/images/products/sofa/187.jpg",
+      "assets/images/products/sofa/188.jpg",
+      "assets/images/products/sofa/189.jpg",
+      "assets/images/products/sofa/190.jpg",
+      "assets/images/products/sofa/191.jpg",
+      "assets/images/products/sofa/192.jpg"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Compact Futon",
+    "category": "Sofa",
+    "price": 14999,
+    "new_price": 11249,
+    "offer": "25%",
+    "gender": "",
+    "sizes": [],
+    "in_stock": true,
+    "rating": 4.0,
+    "description": "Space-saving futon sofa with a split-back design, ideal for dorm rooms or small studios.",
+    "images": [
+      "assets/images/products/sofa/193.jpg",
+      "assets/images/products/sofa/194.jpg",
+      "assetsThis/images/products/sofa/195.jpg",
+      "assets/images/products/sofa/196.jpg",
+      "assets/images/products/sofa/197.jpg",
+      "assets/images/products/sofa/198.jpg",
+      "assets/images/products/sofa/199.jpg"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Premium Cotton Graphic Tee",
+    "category": "T-Shirt",
+    "price": 1299,
+    "new_price": 1169,
+    "offer": "10%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.4,
+    "description": "Soft breathable cotton T-shirt with minimal print, designed for casual comfort and daily wear.",
+    "images": [
+      "assets/images/products/tshirt/1.jpg",
+      "assets/images/products/tshirt/2.jpg",
+      "assets/images/products/tshirt/3.jpg",
+      "assets/images/products/tshirt/4.jpg",
+      "assets/images/products/tshirt/5.jpg",
+      "assets/images/products/tshirt/6.jpg"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Vintage Band T-Shirt",
+    "category": "T-Shirt",
+    "price": 1899,
+    "new_price": 1804,
+    "offer": "5%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "A retro-style band T-shirt made from acid-washed cotton for a perfectly worn-in look.",
+    "images": [
+      "assets/images/products/tshirt/7.jpg",
+      "assets/images/products/tshirt/8.jpg",
+      "assets/images/products/tshirt/9.jpg",
+      "assets/images/products/tshirt/10.jpg",
+      "assets/images/products/tshirt/11.jpg",
+      "assets/images/products/tshirt/12.jpg"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Essential Pima Crewneck",
+    "category": "T-Shirt",
+    "price": 1499,
+    "new_price": 1274,
+    "offer": "15%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "An essential crewneck tee made from ultra-soft, durable Pima cotton for everyday luxury.",
+    "images": [
+      "assets/images/products/tshirt/13.jpg",
+      "assets/images/products/tshirt/14.jpg",
+      "assets/images/products/tshirt/15.jpg",
+      "assets/images/products/tshirt/16.jpg",
+      "assets/images/products/tshirt/17.jpg",
+      "assets/images/products/tshirt/18.jpg"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "V-Neck Basic Tee",
+    "category": "T-Shirt",
+    "price": 999,
+    "new_price": 799,
+    "offer": "20%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "A classic V-neck T-shirt in a soft cotton blend, perfect for layering or wearing on its own.",
+    "images": [
+      "assets/images/products/tshirt/19.jpg",
+      "assets/images/products/tshirt/20.jpg",
+      "assets/images/products/tshirt/21.jpg",
+      "assets/images/products/tshirt/22.jpg",
+      "assets/images/products/tshirt/23.jpg",
+      "assets/images/products/tshirt/24.jpg"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Striped Jersey Tee",
+    "category": "T-Shirt",
+    "price": 1199,
+    "new_price": 1079,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "A timeless striped tee made from comfortable cotton jersey with a classic crew neck.",
+    "images": [
+      "assets/images/products/tshirt/25.jpg",
+      "assets/images/products/tshirt/26.jpg",
+      "assets/images/products/tshirt/27.jpg",
+      "assets/images/products/tshirt/28.jpg",
+      "assets/images/products/tshirt/29.jpg",
+      "assets/images/products/tshirt/30.jpg"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Oversized Skater Tee",
+    "category": "T-Shirt",
+    "price": 1699,
+    "new_price": 1614,
+    "offer": "5%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.2,
+    "description": "A heavyweight cotton tee in an oversized, boxy fit for a relaxed, skater-inspired look.",
+    "images": [
+      "assets/images/products/tshirt/31.jpg",
+      "assets/images/products/tshirt/32.jpg",
+      "assets/images/products/tshirt/33.jpg",
+      "assets/images/products/tshirt/34.jpg",
+      "assets/images/products/tshirt/35.jpg",
+      "assets/images/products/tshirt/36.jpg"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Henley Long-Sleeve",
+    "category": "T-Shirt",
+    "price": 1799,
+    "new_price": 1619,
+    "offer": "10%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A comfortable long-sleeve Henley shirt with a three-button placket, made from soft waffle-knit fabric.",
+    "images": [
+      "assets/images/products/tshirt/37.jpg",
+      "assets/images/products/tshirt/38.jpg",
+      "assets/images/products/tshirt/39.jpg",
+      "assets/images/products/tshirt/40.jpg",
+      "assets/images/products/tshirt/41.jpg",
+      "assets/images/products/tshirt/42.jpg"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Athletic Performance Tee",
+    "category": "T-Shirt",
+    "price": 1999,
+    "new_price": 1699,
+    "offer": "15%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "A moisture-wicking performance tee designed to keep you cool and dry during workouts.",
+    "images": [
+      "assets/images/products/tshirt/43.jpg",
+      "assets/images/products/tshirt/44.jpg",
+      "assets/images/products/tshirt/45.jpg",
+      "assets/images/products/tshirt/46.jpg",
+      "assets/images/products/tshirt/47.jpg",
+      "assets/images/products/tshirt/48.jpg"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Faded Pocket Tee",
+    "category": "T-Shirt",
+    "price": 1399,
+    "new_price": 1049,
+    "offer": "25%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.4,
+    "description": "A vintage-wash tee with a single chest pocket, garment-dyed for a soft, faded color.",
+    "images": [
+      "assets/images/products/tshirt/49.jpg",
+      "assets/images/products/tshirt/50.jpg",
+      "assets/images/products/tshirt/51.jpg",
+      "assets/images/products/tshirt/52.jpg",
+      "assets/images/products/tshirt/53.jpg",
+      "assets/images/products/tshirt/54.jpg"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Minimalist Logo Tee",
+    "category": "T-Shirt",
+    "price": 1599,
+    "new_price": 1439,
+    "offer": "10%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": false,
+    "rating": 4.5,
+    "description": "A clean and simple tee featuring a small, embroidered minimalist logo on the chest.",
+    "images": [
+      "assets/images/products/tshirt/55.jpg",
+      "assets/images/products/tshirt/56.jpg",
+      "assets/images/products/tshirt/57.jpg",
+      "assets/images/products/tshirt/58.jpg",
+      "assets/images/products/tshirt/59.jpg",
+      "assets/images/products/tshirt/60.jpg"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Heavyweight Cotton Tee",
+    "category": "T-Shirt",
+    "price": 2100,
+    "new_price": 1995,
+    "offer": "5%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "A durable, heavyweight cotton T-shirt with a structured fit that holds its shape.",
+    "images": [
+      "assets/images/products/tshirt/61.jpg",
+      "assets/images/products/tshirt/62.jpg",
+      "assets/images/products/tshirt/63.jpg",
+      "assets/images/products/tshirt/64.jpg",
+      "assets/images/products/tshirt/65.jpg",
+      "assets/images/products/tshirt/66.jpg"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Slub Cotton Henley",
+    "category": "T-Shirt",
+    "price": 1699,
+    "new_price": 1444,
+    "offer": "15%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A lightweight, short-sleeve Henley made from textured slub cotton for a breezy feel.",
+    "images": [
+      "assets/images/products/tshirt/67.jpg",
+      "assets/images/products/tshirt/68.jpg",
+      "assets/images/products/tshirt/69.jpg",
+      "assets/images/products/tshirt/70.jpg",
+      "assets/images/products/tshirt/71.jpg",
+      "assets/images/products/tshirt/72.jpg"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Washed Graphic Print",
+    "category": "T-Shirt",
+    "price": 1499,
+    "new_price": 1349,
+    "offer": "10%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "A comfortable tee with a faded, vintage-inspired graphic print on the front.",
+    "images": [
+      "assets/images/products/tshirt/73.jpg",
+      "assets/images/products/tshirt/74.jpg",
+      "assets/images/products/tshirt/75.jpg",
+      "assets/images/products/tshirt/76.jpg",
+      "assets/images/products/tshirt/77.jpg",
+      "assets/images/products/tshirt/78.jpg"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Organic Cotton Basic",
+    "category": "T-Shirt",
+    "price": 1899,
+    "new_price": 1804,
+    "offer": "5%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.9,
+    "description": "Sustainably made from 100% organic cotton, this basic tee is soft on you and the planet.",
+    "images": [
+      "assets/images/products/tshirt/79.jpg",
+      "assets/images/products/tshirt/80.jpg",
+      "assets/images/products/tshirt/81.jpg",
+      "assets/images/products/tshirt/82.jpg",
+      "assets/images/products/tshirt/83.jpg",
+      "assets/images/products/tshirt/84.jpg"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Tie-Dye Swirl Tee",
+    "category": "T-Shirt",
+    "price": 1999,
+    "new_price": 1599,
+    "offer": "20%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.1,
+    "description": "A vibrant, on-trend tie-dye T-shirt with a unique swirl pattern, perfect for festivals.",
+    "images": [
+      "assets/images/products/tshirt/85.jpg",
+      "assets/images/products/tshirt/86.jpg",
+      "assets/images/products/tshirt/87.jpg",
+      "assets/images/products/tshirt/88.jpg",
+      "assets/images/products/tshirt/89.jpg",
+      "assets/images/products/tshirt/90.jpg"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Retro Ringer Tee",
+    "category": "T-Shirt",
+    "price": 1299,
+    "new_price": 1169,
+    "offer": "10%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "A '70s-inspired ringer tee with contrast-color binding on the collar and sleeves.",
+    "images": [
+      "assets/images/products/tshirt/91.jpg",
+      "assets/images/products/tshirt/92.jpg",
+      "assets/images/products/tshirt/93.jpg",
+      "assets/images/products/tshirt/94.jpg",
+      "assets/images/products/tshirt/95.jpg",
+      "assets/images/products/tshirt/96.jpg"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Muscle Fit Gym Tee",
+    "category": "T-Shirt",
+    "price": 1799,
+    "new_price": 1529,
+    "offer": "15%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A stretch-cotton tee with a muscle fit, designed to highlight the physique at the gym.",
+    "images": [
+      "assets/images/products/tshirt/97.jpg",
+      "assets/images/products/tshirt/98.jpg",
+      "assets/images/products/tshirt/99.jpg",
+      "assets/images/products/tshirt/100.jpg",
+      "assets/images/products/tshirt/101.jpg",
+      "assets/images/products/tshirt/102.jpg"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Linen-Blend V-Neck",
+    "category": "T-Shirt",
+    "price": 2200,
+    "new_price": 2090,
+    "offer": "5%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "A lightweight and breathable V-neck tee made from a soft linen-cotton blend, perfect for summer.",
+    "images": [
+      "assets/images/products/tshirt/103.jpg",
+      "assets/images/products/tshirt/104.jpg",
+      "assets/images/products/tshirt/105.jpg",
+      "assets/images/products/tshirt/106.jpg",
+      "assets/images/products/tshirt/107.jpg",
+      "assets/images/products/tshirt/108.jpg"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Tri-Blend Crew",
+    "category": "T-Shirt",
+    "price": 1599,
+    "new_price": 1439,
+    "offer": "10%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.8,
+    "description": "An incredibly soft tee made from a tri-blend fabric (cotton, polyester, rayon) for a vintage feel.",
+    "images": [
+      "assets/images/products/tshirt/109.jpg",
+      "assets/images/products/tshirt/110.jpg",
+      "assets/images/products/tshirt/111.jpg",
+      "assets/images/products/tshirt/112.jpg",
+      "assets/images/products/tshirt/113.jpg",
+      "assets/images/products/tshirt/114.jpg"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Pocket Raglan Tee",
+    "category": "T-Shirt",
+    "price": 1699,
+    "new_price": 1189,
+    "offer": "30%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.2,
+    "description": "A sporty raglan-sleeve tee with contrast sleeves and a matching chest pocket.",
+    "images": [
+      "assets/images/products/tshirt/115.jpg",
+      "assets/images/products/tshirt/116.jpg",
+      "assets/images/products/tshirt/117.jpg",
+      "assets/images/products/tshirt/118.jpg",
+      "assets/images/products/tshirt/119.jpg",
+      "assets/images/products/tshirt/120.jpg"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Embroidered Logo Tee",
+    "category": "T-Shirt",
+    "price": 1499,
+    "new_price": 1349,
+    "offer": "10%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "A high-quality basic tee elevated with a small, tastefully embroidered logo on the chest.",
+    "images": [
+      "assets/images/products/tshirt/121.jpg",
+      "assets/images/products/tshirt/122.jpg",
+      "assets/images/products/tshirt/123.jpg",
+      "assets/images/products/tshirt/124.jpg",
+      "assets/images/products/tshirt/125.jpg",
+      "assets/images/products/tshirt/126.jpg"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Moisture-Wicking Sport",
+    "category": "T-Shirt",
+    "price": 1999,
+    "new_price": 1899,
+    "offer": "5%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "Stay dry and comfortable with this technical T-shirt, featuring moisture-wicking fabric.",
+    "images": [
+      "assets/images/products/tshirt/127.jpg",
+      "assets/images/products/tshirt/128.jpg",
+      "assets/images/products/tshirt/129.jpg",
+      "assets/images/products/tshirt/130.jpg",
+      "assets/images/products/tshirt/131.jpg",
+      "assets/images/products/tshirt/132.jpg"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Boxy Fit Tee",
+    "category": "T-Shirt",
+    "price": 1399,
+    "new_price": 1189,
+    "offer": "15%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "A modern, boxy-fit T-shirt with a slightly shorter length and a structured, clean look.",
+    "images": [
+      "assets/images/products/tshirt/133.jpg",
+      "assets/images/products/tshirt/134.jpg",
+      "assets/images/products/tshirt/135.jpg",
+      "assets/images/products/tshirt/136.jpg",
+      "assets/images/products/tshirt/137.jpg",
+      "assets/images/products/tshirt/138.jpg"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Supima Cotton Crew",
+    "category": "T-Shirt",
+    "price": 2300,
+    "new_price": 2070,
+    "offer": "10%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.9,
+    "description": "Experience superior softness and color retention with this tee made from 100% Supima cotton.",
+    "images": [
+      "assets/images/products/tshirt/139.jpg",
+      "assets/images/products/tshirt/140.jpg",
+      "assets/images/products/tshirt/141.jpg",
+      "assets/images/products/tshirt/142.jpg",
+      "assets/images/products/tshirt/143.jpg",
+      "assets/images/products/tshirt/144.jpg"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Polo Collar Tee",
+    "category": "T-Shirt",
+    "price": 2000,
+    "new_price": 1900,
+    "offer": "5%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A smart-casual polo T-shirt made from breathable pique cotton with a two-button placket.",
+    "images": [
+      "assets/images/products/tshirt/145.jpg",
+      "assets/images/products/tshirt/146.jpg",
+      "assets/images/products/tshirt/147.jpg",
+      "assets/images/products/tshirt/148.jpg",
+      "assets/images/products/tshirt/149.jpg",
+      "assets/images/products/tshirt/150.jpg"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Mock Neck T-Shirt",
+    "category": "T-Shirt",
+    "price": 1799,
+    "new_price": 1619,
+    "offer": "10%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.4,
+    "description": "A stylish, modern tee featuring a mock neck collar for a sophisticated, elevated look.",
+    "images": [
+      "assets/images/products/tshirt/151.jpg",
+      "assets/images/products/tshirt/152.jpg",
+      "assets/images/products/tshirt/153.jpg",
+      "assets/images/products/tshirt/154.jpg",
+      "assets/images/products/tshirt/155.jpg",
+      "assets/images/products/tshirt/156.jpg"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Distressed Hem Tee",
+    "category": "T-Shirt",
+    "price": 1599,
+    "new_price": 1279,
+    "offer": "20%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.0,
+    "description": "An edgy, fashion-forward tee with distressed detailing along the collar, sleeves, and hem.",
+    "images": [
+      "assets/images/products/tshirt/157.jpg",
+      "assets/images/products/tshirt/158.jpg",
+      "assets/images/products/tshirt/159.jpg",
+      "assets/images/products/tshirt/160.jpg",
+      "assets/images/products/tshirt/161.jpg",
+      "assets/images/products/tshirt/162.jpg"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Neon Color Block",
+    "category": "T-Shirt",
+    "price": 1499,
+    "new_price": 1274,
+    "offer": "15%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.2,
+    "description": "A bold color-block T-shirt featuring bright neon panels for a standout, modern look.",
+    "images": [
+      "assets/images/products/tshirt/163.jpg",
+      "assets/images/products/tshirt/164.jpg",
+      "assets/images/products/tshirt/165.jpg",
+      "assets/images/products/tshirt/166.jpg",
+      "assets/images/products/tshirt/167.jpg",
+      "assets/images/products/tshirt/168.jpg"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Vintage Logo Print",
+    "category": "T-Shirt",
+    "price": 1699,
+    "new_price": 1614,
+    "offer": "5%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.5,
+    "description": "A soft cotton tee with a cracked, vintage-style logo print for an authentic retro feel.",
+    "images": [
+      "assets/images/products/tshirt/169.jpg",
+      "assets/images/products/tshirt/170.jpg",
+      "assets/images/products/tshirt/171.jpg",
+      "assets/images/products/tshirt/172.jpg",
+      "assets/images/products/tshirt/173.jpg",
+      "assets/images/products/tshirt/174.jpg"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Thermal Waffle Tee",
+    "category": "T-Shirt",
+    "price": 2199,
+    "new_price": 1979,
+    "offer": "10%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.6,
+    "description": "A long-sleeve T-shirt made from thermal waffle-knit fabric, perfect for layering in cold weather.",
+    "images": [
+      "assets/images/products/tshirt/175.jpg",
+      "assets/images/products/tshirt/176.jpg",
+      "assets/images/products/tshirt/177.jpg",
+      "assets/images/products/tshirt/178.jpg",
+      "assets/images/products/tshirt/179.jpg",
+      "assets/images/products/tshirt/180.jpg"
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Drop Shoulder Tee",
+    "category": "T-Shirt",
+    "price": 1799,
+    "new_price": 1619,
+    "offer": "10%",
+    "gender": "Unisex",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": false,
+    "rating": 4.4,
+    "description": "A relaxed-fit tee with drop shoulders for a comfortable, slouchy silhouette.",
+    "images": [
+      "assets/images/products/tshirt/181.jpg",
+      "assets/images/products/tshirt/182.jpg",
+      "assets/images/products/tshirt/183.jpg",
+      "assets/images/products/tshirt/184.jpg",
+      "assets/images/products/tshirt/185.jpg",
+      "assets/images/products/tshirt/186.jpg"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Abstract Art Tee",
+    "category": "T-Shirt",
+    "price": 1899,
+    "new_price": 1614,
+    "offer": "15%",
+    "gender": "Men",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.3,
+    "description": "A unique T-shirt featuring an all-over abstract art print for a bold, expressive style.",
+    "images": [
+      "assets/images/products/tshirt/187.jpg",
+      "assets/images/products/tshirt/188.jpg",
+      "assets/images/products/tshirt/189.jpg",
+      "assets/images/products/tshirt/190.jpg",
+      "assets/images/products/tshirt/191.jpg",
+      "assets/images/products/tshirt/192.jpg"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Classic White Crew",
+    "category": "T-Shirt",
+    "price": 1099,
+    "new_price": 1044,
+    "offer": "5%",
+    "gender": "Women",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "in_stock": true,
+    "rating": 4.7,
+    "description": "The perfect, timeless white crewneck T-shirt, made from soft, non-sheer cotton.",
+    "images": [
+      "assets/images/products/tshirt/193.jpg",
+      "assets/images/products/tshirt/194.jpg",
+      "assets/images/products/tshirt/195.jpg",
+      "assets/images/products/tshirt/196.jpg",
+      "assets/images/products/tshirt/197.jpg",
+      "assets/images/products/tshirt/198.jpg",
+      "assets/images/products/tshirt/199.jpg"
+    ]
+  }
+]
