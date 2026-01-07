@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="ETHENIC CHIC — Indian Manufacturer of premium ethnic and fashion wear. Discover our products and production excellence." />
+  <meta name="description"
+    content="ETHENIC CHIC — Indian Manufacturer of premium ethnic and fashion wear. Discover our products and production excellence." />
   <title>ETHENIC CHIC | Indian Fashion Manufacturer</title>
 
   <!-- 🔹 Favicon & CSS -->
@@ -68,98 +70,77 @@
   </div>
 -->
   <!-- 🔹 Manufacturing Videos Section -->
-<section class="py-5 manufacturing-videos bg-light">
-  <div class="container">
-    <h2 class="text-center fw-bold mb-4 text-orange">Our Manufacturing Process</h2>
+  <section class="py-5 manufacturing-videos bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4 text-orange">Our Manufacturing Process</h2>
 
-    <div class="row g-4">
-      <div class="col-12 col-md-6 col-lg-4">
-        <video class="w-100 rounded shadow-sm" data-start="0" autoplay muted loop playsinline>
-          <source src="assets/videos/video1.mp4" type="video/mp4">
-        </video>
-      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="assets/videos/video.gif" class="w-100 rounded shadow-sm" alt="Manufacturing Process">
+        </div>
 
-      <div class="col-12 col-md-6 col-lg-4">
-        <video class="w-100 rounded shadow-sm" data-start="" autoplay muted loop playsinline>
-          <source src="assets/videos/video2.mp4" type="video/mp4">
-        </video>
-      </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="assets/videos/video.gif" class="w-100 rounded shadow-sm" alt="Manufacturing Process">
+        </div>
 
-      <div class="col-12 col-md-6 col-lg-4">
-        <video class="w-100 rounded shadow-sm" data-start="0" autoplay muted loop playsinline>
-          <source src="assets/videos/video3.mp4" type="video/mp4">
-        </video>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4">
-        <video class="w-100 rounded shadow-sm" data-start="0" autoplay muted loop playsinline>
-          <source src="assets/videos/video4.mp4" type="video/mp4">
-        </video>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4">
-        <video class="w-100 rounded shadow-sm" data-start="0" autoplay muted loop playsinline>
-          <source src="assets/videos/video5.mp4" type="video/mp4">
-        </video>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4">
-        <video class="w-100 rounded shadow-sm" data-start="0" autoplay muted loop playsinline>
-          <source src="assets/videos/video6.mp4" type="video/mp4">
-        </video>
+        <div class="col-12 col-md-6 col-lg-4">
+          <img src="assets/videos/video.gif" class="w-100 rounded shadow-sm" alt="Manufacturing Process">
+        </div>
+        
       </div>
     </div>
-  </div>
-</section>
-<!-- 🔹 Featured Product Range -->
-<section class="py-5 bg-light all-products">
-  <div class="container">
-    <h2 class="fw-bold text-center mb-5 text-orange">Exclusive Collection — Made by Our Manufacturing Team</h2>
-    <div class="row g-4" id="featuredProducts"></div>
-  </div>
-</section>
+  </section>
+  <!-- 🔹 Featured Product Range -->
+  <section class="py-5 bg-light all-products">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5 text-orange">Exclusive Collection — Made by Our Manufacturing Team</h2>
+      <div class="row g-4" id="featuredProducts"></div>
+    </div>
+  </section>
 
-<!-- 🔹 Product Modal -->
-<div class="modal fade" id="productModal" tabindex="-1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header border-0">
-        <h5 class="modal-title fw-bold" id="modalTitle"></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <div class="row g-4">
-          <div class="col-md-6">
-            <div id="modalImageCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner" id="modalImages"></div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#modalImageCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#modalImageCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
+  <!-- 🔹 Product Modal -->
+  <div class="modal fade" id="productModal" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fw-bold" id="modalTitle"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div id="modalImageCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" id="modalImages"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#modalImageCarousel"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#modalImageCarousel"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <p class="text-muted mb-1" id="modalCategory"></p>
-            <h4 class="text-orange fw-bold mb-2" id="modalPrice"></h4>
-            <p id="modalDescription"></p>
+            <div class="col-md-6">
+              <p class="text-muted mb-1" id="modalCategory"></p>
+              <h4 class="text-orange fw-bold mb-2" id="modalPrice"></h4>
+              <p id="modalDescription"></p>
 
-            <div class="sizes my-3">
-              <label class="fw-bold">Select Size:</label><br />
-              <button class="btn btn-outline-orange btn-sm">S</button>
-              <button class="btn btn-outline-orange btn-sm">M</button>
-              <button class="btn btn-outline-orange btn-sm">L</button>
-              <button class="btn btn-outline-orange btn-sm">XL</button>
+              <div class="sizes my-3">
+                <label class="fw-bold">Select Size:</label><br />
+                <button class="btn btn-outline-orange btn-sm">S</button>
+                <button class="btn btn-outline-orange btn-sm">M</button>
+                <button class="btn btn-outline-orange btn-sm">L</button>
+                <button class="btn btn-outline-orange btn-sm">XL</button>
+              </div>
+
+              <button id="modalAddToCart" class="btn btn-orange w-100">🛒 Add to Cart</button>
             </div>
-
-            <button id="modalAddToCart" class="btn btn-orange w-100">🛒 Add to Cart</button>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
 
   <!-- 🔹 Category Highlights -->
@@ -168,19 +149,23 @@
       <h2 class="text-center mb-4 fw-bold">Product Categories</h2>
       <div class="row g-4 text-center">
         <div class="col-6 col-md-3 anim-hover-card">
-          <a href="products.html#Men"><img src="assets/images/category/category-men.jpg" class="img-fluid rounded shadow-sm" alt="Men"></a>
+          <a href="products.html#Men"><img src="assets/images/category/category-men.jpg"
+              class="img-fluid rounded shadow-sm" alt="Men"></a>
           <h6 class="mt-2">Men’s Wear</h6>
         </div>
         <div class="col-6 col-md-3 anim-hover-card">
-          <a href="products.html#Women"><img src="assets/images/category/category-women.jpg" class="img-fluid rounded shadow-sm" alt="Women"></a>
+          <a href="products.html#Women"><img src="assets/images/category/category-women.jpg"
+              class="img-fluid rounded shadow-sm" alt="Women"></a>
           <h6 class="mt-2">Women’s Wear</h6>
         </div>
         <div class="col-6 col-md-3 anim-hover-card">
-          <a href="products.html#Cultural"><img src="assets/images/category/category-cultural.jpg" class="img-fluid rounded shadow-sm" alt="Cultural"></a>
+          <a href="products.html#Cultural"><img src="assets/images/category/category-cultural.jpg"
+              class="img-fluid rounded shadow-sm" alt="Cultural"></a>
           <h6 class="mt-2">Cultural</h6>
         </div>
         <div class="col-6 col-md-3 anim-hover-card">
-          <a href="products.html#Kids"><img src="assets/images/category/category-kids.jpg" class="img-fluid rounded shadow-sm" alt="Kids"></a>
+          <a href="products.html#Kids"><img src="assets/images/category/category-kids.jpg"
+              class="img-fluid rounded shadow-sm" alt="Kids"></a>
           <h6 class="mt-2">Kids</h6>
         </div>
       </div>
@@ -193,4 +178,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/products.js"></script>
 </body>
+
 </html>
